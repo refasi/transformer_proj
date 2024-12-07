@@ -1,0 +1,15 @@
+model:
+  input_size: 100
+  hidden_size: 128
+  num_layers: 2
+  output_size: 1
+  dropout: 0.5
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 20
+
+paths:
+  data: "data/processed/"
+  save_model: "models/final/lstm_model.pth"
